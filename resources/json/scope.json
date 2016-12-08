@@ -1,0 +1,74 @@
+{
+  "data": [
+    {
+      "title": "System",
+      "type": "system",
+      "objects": [
+        {
+          "id": null,
+          "type": "system",
+          "title": "System defaults"
+        }
+      ]
+    },
+    {
+      "title": "Accounts",
+      "type": "account",
+      "objects": [
+        {
+          "id": null,
+          "type": "account",
+          "title": "Entire organization"
+        }
+      ]
+    },
+    {
+      "title": "Locations",
+      "type": "location",
+      "objects": [
+        {
+          "id": 15,
+          "type": "location",
+          "title": "River Oaks East"
+        },
+        {
+          "id": 14,
+          "type": "location",
+          "title": "River Oaks Main"
+        }
+      ]
+    },
+    {
+      "title": "Providers",
+      "type": "resource",
+      "objects": [
+        {
+          "id": 2,
+          "type": "resource",
+          "title": "Dr Casey  Montanero"
+        },
+        {
+          "id": 5,
+          "type": "resource",
+          "title": "Dr Pat Duncan"
+        },
+        {
+          "id": 8,
+          "type": "resource",
+          "title": "Dr Winston Harry"
+        }
+      ]
+    },
+    {
+      "title": "Departments",
+      "type": "department",
+      "objects": [
+        {
+          "id": 1,
+          "type": "department",
+          "title": "Main Department"
+        }
+      ]
+    }
+  ]
+}

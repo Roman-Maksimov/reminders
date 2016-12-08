@@ -1,0 +1,67 @@
+{
+    "channels": [
+        {
+            "values": {
+                "channels": "sms"
+            },
+            "binding": {
+                "objectType": "resource",
+                "objectID": 5
+            }
+        },
+        {
+            "values": {
+                "channels": "none"
+            },
+            "binding": {
+                "objectType": "system",
+                "objectID": null
+            }
+        }
+    ],
+    "smsTemplates": [
+        {
+            "values": {
+                "smsText": "You have an appointment at resource"
+            },
+            "binding": {
+                "objectType": "resource",
+                "objectID": 5
+            }
+        },
+        {
+            "values": {
+                "smsText": "You have an appointment..."
+            },
+            "binding": {
+                "objectType": "account",
+                "objectID": null
+            }
+        },
+        {
+            "values": {
+                "smsText": "You have an ..."
+            },
+            "binding": {
+                "objectType": "system",
+                "objectID": null
+            }
+        }
+    ],
+    "bussinesHours": [
+        {
+            "values": {
+                "daysMask": [
+                    "monday",
+                    "tuesday",
+                    "wednesday",
+                    "thursday"
+                ]
+            },
+            "binding": {
+                "objectType": "system",
+                "objectID": null
+            }
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+.reminders-header {
+    display: flex;
+    justify-content: space-between;
+
+    position: relative;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    font-weight: 600;
+
+    @import "title";
+    @import "preview";
+    @import "inherit";
+    @import "icon";
+}

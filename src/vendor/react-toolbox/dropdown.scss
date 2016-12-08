@@ -1,0 +1,33 @@
+@import "~react-toolbox/lib/dropdown/theme";
+@import "~react-toolbox/lib/dropdown/_config";
+@import "src/styles/constants";
+
+.value {
+  font-size: 14px;
+
+  > input {
+    font-size: 14px;
+    padding: 10px 20px 10px 0;
+    box-sizing: border-box;
+  }
+}
+
+.values {
+  padding: 0;
+  text-align: left;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+    height: 100%;
+  }
+
+  &::-webkit-scrollbar-track {
+    border-radius: 2px;
+    background: rgba(0, 0, 0, .26);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background: #3f51b5;
+  }
+}

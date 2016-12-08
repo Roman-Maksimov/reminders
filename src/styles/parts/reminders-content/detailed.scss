@@ -1,0 +1,17 @@
+&__detailed {
+  position: relative;
+  margin-top: -35px;
+  padding-bottom: 90px;
+  opacity: 1;
+}
+
+&-appear.reminders-content__detailed {
+  opacity: 0;
+  max-height: 0;
+}
+
+&-appear-active.reminders-content__detailed {
+  opacity: 1;
+  max-height: 1000px;
+  transition: opacity .5s ease, max-height .5s ease;
+}

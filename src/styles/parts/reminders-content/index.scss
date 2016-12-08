@@ -1,0 +1,9 @@
+.reminders-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    @import "detailed";
+    @import "default";
+    @import "control";
+}

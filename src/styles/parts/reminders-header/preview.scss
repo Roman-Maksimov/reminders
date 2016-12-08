@@ -1,0 +1,15 @@
+&__preview {
+    height: 35px;
+    line-height: 1;
+    font-weight: 600;
+    color: $color-text-secondary;
+    opacity: 1;
+
+    transition: opacity .5s ease;
+
+    &_opened {
+        opacity: 0;
+
+        transition: opacity .3s ease;
+    }
+}

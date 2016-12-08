@@ -1,0 +1,18 @@
+[
+  {
+    "id": "none",
+    "title": "Not active"
+  },
+  {
+    "id": "sms",
+    "title": "SMS"
+  },
+  {
+    "id": "voice",
+    "title": "Voice"
+  },
+  {
+    "id": "sms,voice",
+    "title": "SMS & Voice"
+  }
+]

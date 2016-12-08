@@ -1,0 +1,23 @@
+.reminders-block {
+  position: relative;
+  margin: 0 1px;
+  border-bottom: 1px solid $color-divider;
+  cursor: pointer;
+
+  &:hover {
+    background: #fafafa;
+  }
+
+  &_opened {
+    &:hover {
+      background: #fff;
+    }
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  @import "content";
+  @import "padding";
+}

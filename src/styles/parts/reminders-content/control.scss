@@ -1,0 +1,22 @@
+&__control {
+  position: absolute;
+  bottom: 20px;
+  white-space: nowrap;
+
+  &-override {
+    margin-right: 10px;
+    text-transform: none;
+  }
+
+  &-name {
+    color: $color-primary;
+    font-weight: 600;
+  }
+
+  &-icon {
+    display: inline-block;
+    position: relative;
+    bottom: -3px;
+    font-size: 17px;
+  }
+}

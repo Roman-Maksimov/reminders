@@ -1,0 +1,19 @@
+@import "~react-toolbox/lib/checkbox/theme";
+@import "~react-toolbox/lib/checkbox/_config";
+@import "src/styles/constants";
+
+.input {
+  position: absolute;
+}
+
+.check {
+  vertical-align: middle;
+}
+
+.text {
+  vertical-align: middle;
+}
+
+.field {
+  height: 24px;
+}
