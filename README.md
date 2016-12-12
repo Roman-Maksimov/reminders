@@ -21,6 +21,13 @@ For development this file might be copied/linked from .evn.*.sample or copied fr
 $ npm start
 ```
 
+### Run in docker
+```bash
+docker build --tag reminders_maksimov:1.0 .
+docker run -tip 8080:8080 reminders_maksimov:1.0
+```
+
+
 Default url: `http://localhost:8080/`
 
 ### Make a build

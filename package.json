@@ -7,14 +7,14 @@
   "scripts": {
     "test": "npm ln ./src && rm -rf tmp/ && karma start karma.conf.js --single-run",
     "test:watch": "npm ln ./src && karma start karma.conf.js --browsers PhantomJS",
-    "start": "npm ln ./src && webpack-dev-server --config config/webpack/dev-server.js --inline --hot --progress",
+    "start": "npm ln ./src && webpack-dev-server --config config/webpack/dev-server.js --host 0.0.0.0 --inline --hot --progress",
     "build": "npm ln ./src && webpack --config config/webpack/build.js --progress --color --display-modules",
     "build-json": "npm ln ./src && webpack --config config/webpack/build.js --json > build.json",
     "clean": "test -d ./build && rm ./build -r || exit 0"
   },
   "author": "",
   "devDependencies": {
-    "webpack-dev-server": "^1.14.1"
+    "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
     "autoprefixer": "~6.5.3",
