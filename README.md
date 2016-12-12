@@ -23,6 +23,10 @@ $ npm start
 
 ### Run in docker
 ```bash
+cat << EOF > .env
+NODE_ENV=development
+API_URL=http://192.168.99.100:8080
+EOF
 docker build --tag reminders_maksimov:1.0 .
 docker run -tip 8080:8080 reminders_maksimov:1.0
 ```
